@@ -1,0 +1,398 @@
+
+/* navigation bar stylesheet */
+.section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-head{
+    font-size: xx-large;
+    color: skyblue;
+}
+.nav-title{
+    display: flex;
+}
+nav > ul > li{
+    list-style: none;
+
+}
+nav > ul > li > a{
+   text-decoration: none;
+   color: black;
+   font-size: 24px;
+}
+.nav-menu{
+    margin: 20px;
+}
+.top-part{
+    display: flex;
+    align-items: center;
+
+}
+.half-width{
+    width: 100%;
+}
+.half-width img{
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 80%;
+}
+.app-location{
+    display: flex;
+    
+}
+.app-address{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.app-title{
+    padding-left: 10px;
+}
+.app-title span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.fa-google-play,.fa-apple{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fa-apple{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* main section */
+.section-top{
+    margin-top: 50px;
+}
+.heading-smart-features{
+    text-align: center;
+    font-weight: bolder;
+}
+.subheading-smart-features{
+    text-align: center;
+    font-weight: 500;
+}
+.left-arrow{
+    padding-left: 20px;
+}
+.app-feature-title{
+    display: flex;
+    align-items: center;
+}
+.app-feature-detail p{
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+.app-featurs{
+    display: flex;
+    margin-top: 80px;
+}
+.left-side-feature{
+    margin-top: 70px;
+    width: 300px;
+    margin-left: 100px;
+    padding-right: 20px;
+}
+
+   
+
+
+.right-side-feature{
+    margin-right: 100px;
+    margin-top: 70px;
+    width: 300px;
+    padding-left: 30px;
+}
+/* applo section */ 
+.section-for-apple{
+    margin: 100px;
+}
+.apple-img {
+    text-align: center;
+    
+   
+   
+   
+    
+    
+    
+}
+.apple-user{
+    width: 200px;
+    height: 150px;
+   padding-top: 30px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px  lightgray;
+   
+    color: gray;
+    font-size: 120px;
+    margin-bottom: 20px;
+
+}
+.app-top-section{
+    margin-bottom: 100px;
+}
+.apple-heading{
+   
+    margin-bottom: 0;
+}
+.ios-user{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.plan-title{
+    width: 300px;
+    height: 100px;
+    border: 1px solid skyblue;
+   
+    padding-left: 70px;
+    padding-top: 20px;
+    color: white;
+  background-image: linear-gradient(rgba(54, 54, 240, 0.932), rgb(9, 174, 245));
+  border-radius: 50px 5px 50px 5px;
+}
+.plan-for-users{
+    display: flex;
+    justify-content: space-between;
+}
+.plan{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    width: 400px;
+    height: 630px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px lightgray;
+    border-radius: 50px 5px 50px 5px;
+    background-color: rgba(255, 249, 249, 0.74);
+}
+.plan-detail{
+  padding-top: 30px;
+}
+.fa-circle{
+    color: rgb(20, 83, 219);
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.single-plan{
+    display: flex;
+    align-items: center;
+   
+}
+.statement{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.plan-button{
+    margin-top: 20px;
+    width: 200PX;
+    height: 40px;
+    border: 1px solid rgb(24, 96, 230);
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-left: 60px;
+
+    
+    
+    background-image: linear-gradient(rgb(17, 71, 221), rgb(9, 100, 238));
+    border-radius: 10px;
+}
+
+.button-text{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+/* android section */
+.android-logo{
+    padding-top: 15px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-bottom: 15px;
+    border: 1px solid rgb(109, 106, 106);
+    border-radius: 50%;
+    
+    box-shadow: 5px 5px 15px lightgray;
+    
+  
+    text-align: center;
+}
+.android-plan{
+    display: flex;
+    justify-content: center;
+   
+}
+/* slideshow */
+.slideshow{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1000px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px 5px 50px 5px ;
+    background-image: linear-gradient(rgb(33, 33, 233), rgb(17, 103, 233));
+}
+.slideshow-commend{
+    color: white;
+}
+.try-button{
+    padding-left: 100px;
+   
+    padding-top: 20px;
+    padding-bottom: 25px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px 5px 20px 5px ;
+    background-color: white;
+    
+}
+.try-button a {
+    text-decoration: none;
+}
+.try-button > a > h2{
+    color: black;
+    font-weight: bolder;
+}
+/* client review */
+.user-section{
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.client-pic{
+    /* width: 50%; */
+}
+
+.feedback-detail{
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid lightgray;
+    background-color: rgba(215, 226, 226, 0.438);
+    box-shadow: 10px 10px 20px lightgray;
+
+}
+.feedback-detail p{
+    font-size: 24px;
+}
+.reviwer-white-spce{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.reviwer{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.reveiw{
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(179, 174, 174);
+    box-shadow: 5px 5px 10px lightgray;
+    
+    border-radius: 10px 5px 10px 5px;
+    margin-right: 30px;
+}
+.qoute-sign{
+    position: relative;
+    top: -210px;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgb(8, 70, 241),rgb(19, 131, 223));
+}
+.footer-heading-box{
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    
+}
+.footer-app{
+   margin-left: 30%;
+   margin-top: 0;
+   margin-bottom: 50px;
+}
+.fan-page{
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook, .fa-instagram, .fa-youtube, .fa-twitter-square{
+    padding-left: 30px;
+    font-size: 50px;
+   color: white;
+}
+.blogs{
+    display: flex;
+    align-items: center;
+    
+}
+.blogs a {
+    text-decoration: none;
+    color: white;
+}
+.barrier{
+    font-size: 24px;
+    margin-left: 20px;
+    color: white;
+}
+.features{
+    margin-left: 10%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.straight-line{
+    width: 1000px;
+    height: 5px;
+    border: 1px solid rgb(32, 32, 175);
+    margin-left: 10%;
+    background-color: rgb(33, 33, 231);
+    border-radius: 5px;
+}
+.vartical-line{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.vimroy-group{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
